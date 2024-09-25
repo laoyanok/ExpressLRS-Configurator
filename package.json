@@ -1,6 +1,6 @@
 {
   "name": "expresslrs-configurator",
-  "productName": "ExpressLRS Configurator",
+  "productName": "ExpressLRS_Configurator",
   "description": "Cross platform build & configuration tool for the ExpressLRS firmware",
   "scripts": {
     "build": "concurrently \"yarn build:main\" \"yarn build:renderer\"",
@@ -42,7 +42,7 @@
   },
   "main": "./src/main/main.ts",
   "build": {
-    "productName": "ExpressLRS Configurator",
+    "productName": "ExpressLRS_Configurator",
     "appId": "org.expresslrs.configurator",
     "buildDependenciesFromSource": true,
     "files": [
